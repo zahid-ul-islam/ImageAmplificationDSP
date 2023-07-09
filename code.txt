@@ -1,0 +1,7 @@
+image = imread('C:\Users\ZAHID FAHIM\Downloads\Music\test3.jpeg'); % select your image path
+image = im2double(image);
+gain = 4;  % Adjust the gain value as needed
+amplifiedImage = image * gain;
+
+imshow(amplifiedImage);
+imwrite(amplifiedImage, 'C:\Users\ZAHID FAHIM\Downloads\Music\test3.jpeg');
